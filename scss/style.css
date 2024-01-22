@@ -556,6 +556,207 @@ nav .checkBtn {
 .home-page .rown .rown-all:hover {
   background: #f72585;
 }
+.home-page .second {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 20px;
+  width: 100%;
+  height: 385vh;
+}
+.home-page .second .asos2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 56px;
+  flex-direction: column;
+}
+.home-page .second .asos2 h1 {
+  color: var(--Text-Tittle, #1C3554);
+  font-variant-numeric: lining-nums proportional-nums;
+  /* Heading/Bold/H3 - 48px */
+  font-family: Rubik;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.984px; /* 133.3% */
+}
+.home-page .second .asos2 .all {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home-page .second .asos2 .all button {
+  display: flex;
+  width: 167px;
+  padding: 8px 32px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  border: none;
+  background: inherit;
+  border-radius: 8px;
+  color: var(--Other-grey, #AAA);
+  /* Paragraph/Semibold/Body - 16px */
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 32px; /* 200% */
+  transition: 0.4s;
+}
+.home-page .second .asos2 .all button:hover {
+  display: flex;
+  width: 167px;
+  padding: 8px 32px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  color: #fff;
+  border-radius: 8px;
+  background: var(--Primary-Pink, #F72585);
+}
+.home-page .second .more {
+  display: flex;
+  width: 288px;
+  padding: 14px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  border-radius: 8px;
+  background: var(--Primary-Pink, #F72585);
+  transition: 0.4s;
+}
+.home-page .second .more h2 {
+  color: var(--Text-white, #FFF);
+  text-align: center;
+  /* Paragraph/Semibold/Body - 16px */
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+}
+.home-page .second .more:hover {
+  background: #fa1556;
+}
+.home-page .second .cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 10px;
+}
+.home-page .second .cards .card {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column;
+  width: 254px;
+  height: 427px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--Other-white, #FFF);
+  gap: 8px;
+  padding: 16px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.home-page .second .cards .card:hover {
+  box-shadow: 15px 10px 40px rgba(95, 95, 95, 0.428);
+}
+.home-page .second .cards .card h6 {
+  color: var(--Text-Tittle, #1C3554);
+  font-variant-numeric: lining-nums proportional-nums;
+  /* Heading/Medium/H6 - 16px */
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  text-transform: capitalize;
+}
+.home-page .second .cards .card p {
+  color: var(--Primary-Pink, #F72585);
+  /* Paragraph/Semibold/Label - 12px */
+  font-family: "Montserrat SemiBold";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+}
+.home-page .second .cards .card h4 {
+  width: 45.153px;
+  color: var(--Text-Body, #808080);
+  /* Paragraph/Semibold/Caption - 14px */
+  font-family: "Montserrat SemiBold";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.home-page .second .cards .card .dol {
+  display: flex;
+  align-items: center;
+  gap: 8.09px;
+}
+.home-page .second .cards .card .dol h5 {
+  width: 64.218px;
+  color: var(--Text-Tittle, #1C3554);
+  /* Heading/Medium/H5 - 24px */
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 133.333% */
+}
+.home-page .second .cards .card .dol p {
+  width: 41.139px;
+  color: var(--Text-In-Field, #CCC);
+  /* Paragraph/Reguler/Body - 16px */
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+.home-page .second .cards .card .stars {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.home-page .second .cards .card .rasm {
+  width: 100%;
+  height: 208px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: var(--Text-In-Field, #CCC);
+}
+.home-page .second .cards .card .design button {
+  width: auto 131px;
+  height: auto 32px;
+  display: flex;
+  padding: 4px 24px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  position: absolute;
+  margin-left: 46px;
+  margin-top: -28px;
+  background: var(--Other-Blue, #4586D6);
+}
+.home-page .second .cards .card .design button h2 {
+  color: var(--Text-white, #FFF);
+  /* Paragraph/Semibold/Label - 12px */
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 200% */
+}
 .home-page .hammasi {
   display: flex;
   justify-content: center;
@@ -662,7 +863,7 @@ nav .checkBtn {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 250px;
+  gap: 186px;
   padding: 80px 0;
 }
 .home-page .dom-all .dom-row {
@@ -783,6 +984,20 @@ nav .checkBtn {
 }
 
 @media (max-width: 976px) {
+  .home-page .second {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 200vh;
+  }
+  .home-page .second .cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
   .home-page .first {
     display: flex;
     justify-content: space-around;
@@ -917,6 +1132,33 @@ nav .checkBtn {
   }
 }
 @media (max-width: 768px) {
+  .home-page .second {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 453vh;
+  }
+  .home-page .second .asos2 {
+    padding: 20px;
+  }
+  .home-page .second .asos2 .all {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .home-page .second .cards {
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .home-page .card-all {
+    margin-top: 50px;
+    align-items: center;
+  }
   .home-page .week {
     width: 1360px;
     height: 748px;
@@ -1149,6 +1391,15 @@ nav .checkBtn {
   }
 }
 @media (max-width: 400px) {
+  .home-page .second {
+    height: 600vh;
+  }
+  .home-page .second .asos2 {
+    height: 600vh;
+  }
+  .home-page .second .cards {
+    height: 600vh;
+  }
   .home-page .first {
     display: flex;
     justify-content: space-around;
@@ -1427,7 +1678,6 @@ nav .checkBtn {
   line-height: 88px; /* 137.5% */
 }
 .birinchi .asos .cours p {
-  width: 712px;
   color: var(--Text-Body, #808080);
   /* Paragraph/Reguler/Body - 16px */
   font-family: Montserrat;
@@ -2197,27 +2447,6 @@ nav .checkBtn {
   margin-top: 100%;
   text-align: center;
 }
-.home-page .dom-all {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 250px;
-  padding: 80px 0;
-}
-.home-page .dom-all .dom-row {
-  text-align: center;
-}
-.home-page .dom-all .dom-row img {
-  width: 64px;
-  height: 64px;
-  flex-shrink: 0;
-}
-.home-page .dom-all .dom-row h1 {
-  font-size: 32px;
-  color: #1c3554;
-  font-family: "rubik";
-}
 .home-page .book-all {
   display: flex;
   justify-content: center;
@@ -2514,7 +2743,36 @@ nav .checkBtn {
   }
 }
 @media (max-width: 500px) {
-  .home-page .first {
+  .courses-page .asos .cours h2 {
+    width: 100%;
+  }
+  .courses-page .asos .uchinchi {
+    display: flex;
+    flex-direction: column;
+    grid-area: 20px;
+    align-items: center;
+  }
+  .courses-page .asos .besh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .courses-page .asos .besh p {
+    width: 100%;
+  }
+  .courses-page .asos .acer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .courses-page .asos .acer .ung {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .courses-page .first {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -2524,7 +2782,7 @@ nav .checkBtn {
     border-radius: 8px;
     background: #021934;
   }
-  .home-page .first .asos1 {
+  .courses-page .first .asos1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -2532,18 +2790,18 @@ nav .checkBtn {
     width: 100%;
     gap: 70px;
   }
-  .home-page .first .asos1 .right > img {
+  .courses-page .first .asos1 .right > img {
     position: relative;
     width: 300px;
     height: 300px;
     flex-shrink: 0;
   }
-  .home-page .first .asos1 .right > img img {
+  .courses-page .first .asos1 .right > img img {
     position: absolute;
     z-index: 100;
     overflow: hidden;
   }
-  .home-page .first .asos1 .left {
+  .courses-page .first .asos1 .left {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -2552,7 +2810,7 @@ nav .checkBtn {
     padding-bottom: 88px;
     gap: 24px;
   }
-  .home-page .first .asos1 .left h1 {
+  .courses-page .first .asos1 .left h1 {
     width: 300px;
     color: #fff;
     font-family: "Rubik";
@@ -2562,7 +2820,7 @@ nav .checkBtn {
     text-align: center;
     margin-left: 20%;
   }
-  .home-page .first .asos1 .left p {
+  .courses-page .first .asos1 .left p {
     width: 300px;
     color: var(--Text-white, #fff);
     font-family: "Montserrat";
@@ -2573,7 +2831,7 @@ nav .checkBtn {
     margin-left: 15%;
     text-align: center;
   }
-  .home-page .first .asos1 .left .box {
+  .courses-page .first .asos1 .left .box {
     display: flex;
     align-items: center;
     width: 380px;
@@ -2584,11 +2842,11 @@ nav .checkBtn {
     border-radius: 8px;
     background: var(--Text-white, #fff);
   }
-  .home-page .first .asos1 .left .box input {
+  .courses-page .first .asos1 .left .box input {
     border: none;
     outline: none;
   }
-  .home-page .first .asos1 .left .box button {
+  .courses-page .first .asos1 .left .box button {
     padding: 12px 32px;
     display: inline-flex;
     padding: 4px 12px;
@@ -2607,16 +2865,16 @@ nav .checkBtn {
     line-height: 32px;
     cursor: pointer;
   }
-  .home-page .first .asos1 .left .pas {
+  .courses-page .first .asos1 .left .pas {
     display: flex;
     gap: 48px;
   }
-  .home-page .first .asos1 .left .pas .life {
+  .courses-page .first .asos1 .left .pas .life {
     display: flex;
     align-items: center;
     gap: 8px;
   }
-  .home-page .first .asos1 .left .pas .life h6 {
+  .courses-page .first .asos1 .left .pas .life h6 {
     color: #fff;
     font-variant-numeric: lining-nums proportional-nums;
     font-family: "rubik";
@@ -2625,7 +2883,7 @@ nav .checkBtn {
     font-weight: 700;
     line-height: 24px;
   }
-  .home-page .book-all {
+  .courses-page .book-all {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2633,25 +2891,25 @@ nav .checkBtn {
     flex-wrap: wrap;
     gap: 40px;
   }
-  .home-page .book-all .book-row .book-col {
+  .courses-page .book-all .book-row .book-col {
     width: 400px;
     height: 400px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #ccc;
   }
-  .home-page .book-all .book-weve h1 {
+  .courses-page .book-all .book-weve h1 {
     font-size: 32px;
     text-align: center;
   }
-  .home-page .book-all .book-weve p {
+  .courses-page .book-all .book-weve p {
     max-width: 350px;
     color: #808088;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     padding: 10px 0;
   }
-  .home-page .book-all .book-weve .btn2 {
+  .courses-page .book-all .book-weve .btn2 {
     padding: 10px 32px;
     border-radius: 8px;
     background: #f72585;
@@ -2659,11 +2917,11 @@ nav .checkBtn {
     color: white;
     margin-left: 20%;
   }
-  .home-page .class h1 {
+  .courses-page .class h1 {
     text-align: center;
     font-size: 32px;
   }
-  .home-page #backtop {
+  .courses-page #backtop {
     text-decoration: none;
     font-size: 24px;
     font-weight: 900;
@@ -2683,13 +2941,52 @@ nav .checkBtn {
     z-index: 99;
     transition: 0.6s;
   }
-  .home-page .card-all h1 {
+  .courses-page .card-all h1 {
     font-size: 32px;
     text-align: center;
   }
 }
 @media (max-width: 400px) {
-  .home-page .first {
+  .courses-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .courses-page .second {
+    height: 483vh;
+  }
+  .courses-page .asos .cours h2 {
+    width: 100%;
+    font-size: 32px;
+  }
+  .courses-page .asos .uchinchi {
+    display: flex;
+    flex-direction: column;
+    grid-area: 20px;
+    align-items: center;
+  }
+  .courses-page .asos .besh {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .courses-page .asos .besh p {
+    width: 100%;
+  }
+  .courses-page .asos .acer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .courses-page .asos .acer .ung {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .courses-page .first {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -2699,7 +2996,7 @@ nav .checkBtn {
     border-radius: 8px;
     background: #021934;
   }
-  .home-page .first .asos1 {
+  .courses-page .first .asos1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -2707,19 +3004,19 @@ nav .checkBtn {
     width: 100%;
     gap: 70px;
   }
-  .home-page .first .asos1 .right > img {
+  .courses-page .first .asos1 .right > img {
     position: relative;
     width: 300px;
     height: 300px;
     flex-shrink: 0;
     margin-left: 20%;
   }
-  .home-page .first .asos1 .right > img img {
+  .courses-page .first .asos1 .right > img img {
     position: absolute;
     z-index: 100;
     overflow: hidden;
   }
-  .home-page .first .asos1 .left {
+  .courses-page .first .asos1 .left {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -2728,7 +3025,7 @@ nav .checkBtn {
     padding-bottom: 88px;
     gap: 24px;
   }
-  .home-page .first .asos1 .left h1 {
+  .courses-page .first .asos1 .left h1 {
     width: 300px;
     color: #fff;
     font-family: "Rubik";
@@ -2738,7 +3035,7 @@ nav .checkBtn {
     text-align: center;
     margin-left: 20%;
   }
-  .home-page .first .asos1 .left p {
+  .courses-page .first .asos1 .left p {
     width: 300px;
     color: var(--Text-white, #fff);
     font-family: "Montserrat";
@@ -2749,7 +3046,7 @@ nav .checkBtn {
     margin-left: 15%;
     text-align: center;
   }
-  .home-page .first .asos1 .left .box {
+  .courses-page .first .asos1 .left .box {
     display: flex;
     align-items: center;
     width: 350px;
@@ -2761,12 +3058,12 @@ nav .checkBtn {
     overflow: hidden;
     background: var(--Text-white, #fff);
   }
-  .home-page .first .asos1 .left .box input {
+  .courses-page .first .asos1 .left .box input {
     border: none;
     outline: none;
     overflow: hidden;
   }
-  .home-page .first .asos1 .left .box button {
+  .courses-page .first .asos1 .left .box button {
     padding: 12px 32px;
     display: inline-flex;
     padding: 4px 12px;
@@ -2785,20 +3082,20 @@ nav .checkBtn {
     line-height: 32px;
     cursor: pointer;
   }
-  .home-page .first .asos1 .left .pas {
+  .courses-page .first .asos1 .left .pas {
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .home-page .first .asos1 .left .pas .life {
+  .courses-page .first .asos1 .left .pas .life {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 10px;
   }
-  .home-page .first .asos1 .left .pas .life h6 {
+  .courses-page .first .asos1 .left .pas .life h6 {
     color: #fff;
     font-variant-numeric: lining-nums proportional-nums;
     font-family: "rubik";
@@ -4201,27 +4498,6 @@ nav .checkBtn {
   color: white;
   margin-top: 100%;
   text-align: center;
-}
-.home-page .dom-all {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 250px;
-  padding: 80px 0;
-}
-.home-page .dom-all .dom-row {
-  text-align: center;
-}
-.home-page .dom-all .dom-row img {
-  width: 64px;
-  height: 64px;
-  flex-shrink: 0;
-}
-.home-page .dom-all .dom-row h1 {
-  font-size: 32px;
-  color: #1c3554;
-  font-family: "rubik";
 }
 .home-page .book-all {
   display: flex;

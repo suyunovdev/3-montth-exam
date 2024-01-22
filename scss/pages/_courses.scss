@@ -164,7 +164,6 @@
         line-height: 88px; /* 137.5% */
       }
       p {
-        width: 712px;
         color: var(--Text-Body, #808080);
         /* Paragraph/Reguler/Body - 16px */
         font-family: Montserrat;
@@ -968,27 +967,7 @@
     }
   }
 
-  .dom-all {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 250px;
-    padding: 80px 0;
-    .dom-row {
-      text-align: center;
-      img {
-        width: 64px;
-        height: 64px;
-        flex-shrink: 0;
-      }
-      h1 {
-        font-size: 32px;
-        color: #1c3554;
-        font-family: "rubik";
-      }
-    }
-  }
+ 
 
   .book-all {
     display: flex;
@@ -1316,7 +1295,46 @@
 }
 
 @media (max-width: 500px) {
-  .home-page {
+  .courses-page {
+   
+
+    .asos{
+
+      .cours{
+        h2{
+          width: 100%;
+        }
+      }
+
+      .uchinchi{
+        display: flex;
+        flex-direction: column;
+        grid-area: 20px;
+        align-items: center;
+      }
+      .besh{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        p{
+          width: 100%;
+        }
+      }
+      .acer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+
+        .ung{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+        }
+      }
+    }
+
     .first {
       display: flex;
       justify-content: space-around;
@@ -1513,7 +1531,52 @@
 }
 
 @media (max-width: 400px) {
-  .home-page {
+  .courses-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+     .second{
+          height: 483vh;
+    }
+    .asos{
+
+      .cours{
+        h2{
+          width: 100%;
+          font-size: 32px;
+        }
+      }
+
+      .uchinchi{
+        display: flex;
+        flex-direction: column;
+        grid-area: 20px;
+        align-items: center;
+      }
+      .besh{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        p{
+          width: 100%;
+        }
+      }
+      .acer{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+
+        .ung{
+          display: flex;
+          flex-wrap: wrap;
+          flex-direction: column;
+        }
+      }
+    }
+
     .first {
       display: flex;
       justify-content: space-around;

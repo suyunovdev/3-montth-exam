@@ -150,6 +150,228 @@
     }
   }
 
+
+
+
+
+
+  .second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    width: 100%;
+    height: 385vh;
+    
+    .asos2{
+        display:flex ;
+        justify-content: space-around;
+        align-items: center;
+        gap: 56px;
+        flex-direction: column;
+        
+        h1{
+            color: var(--Text-Tittle, #1C3554);
+            font-variant-numeric: lining-nums proportional-nums;
+            /* Heading/Bold/H3 - 48px */
+            font-family: Rubik;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 63.984px; /* 133.3% */
+        }
+        .all{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            
+            button{
+                display: flex;
+                width: 167px;
+                padding: 8px 32px;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 10px;
+                border: none;
+                background: inherit;
+                border-radius: 8px;
+                color: var(--Other-grey, #AAA);
+                /* Paragraph/Semibold/Body - 16px */
+                font-family: "Montserrat";
+                font-size: 16px;
+                font-style: normal;
+                font-weight: bold;
+                line-height: 32px; /* 200% */
+                transition: .4s;
+                &:hover{
+                    display: flex;
+                    width: 167px;
+                    padding: 8px 32px;
+                    justify-content: center;
+                    align-items: flex-start;
+                    gap: 10px;
+                    color: #fff;
+                    border-radius: 8px;
+                    background: var(--Primary-Pink, #F72585);
+                }
+
+            }
+        }
+
+
+    }
+    .more{
+        display: flex;
+        width: 288px;
+        padding: 14px 24px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        border-radius: 8px;
+        background: var(--Primary-Pink, #F72585);
+        transition: .4s;
+        h2{
+            color: var(--Text-white, #FFF);
+            text-align: center;
+            /* Paragraph/Semibold/Body - 16px */
+            font-family: "Montserrat";
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px; /* 200% */
+        }
+        &:hover{
+            background:#fa1556;
+        }
+    }
+    .cards{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 10px;
+        
+
+        .card{
+            display: flex;
+            justify-content: space-around;
+            flex-flow: column;
+            width: 254px;
+            height: 427px;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background: var(--Other-white,  #FFF);
+            gap: 8px;
+            padding: 16px;
+            overflow:hidden;
+            transition: .3s;
+            &:hover{
+                box-shadow: 15px 10px 40px rgba(95, 95, 95, 0.428);
+
+
+
+            }
+            h6{
+               
+                color: var(--Text-Tittle, #1C3554);
+                font-variant-numeric: lining-nums proportional-nums;
+                /* Heading/Medium/H6 - 16px */
+                font-family: Rubik;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 24px; /* 150% */
+                text-transform: capitalize;
+            }
+            p{
+                color: var(--Primary-Pink, #F72585);
+                /* Paragraph/Semibold/Label - 12px */
+                font-family: "Montserrat SemiBold";
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; /* 200% */
+            }
+            h4{
+                width: 45.153px;
+                color: var(--Text-Body, #808080);
+                /* Paragraph/Semibold/Caption - 14px */
+                font-family: "Montserrat SemiBold";
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 24px; /* 171.429% */
+            }
+            .dol{
+                display: flex;
+                align-items: center;
+                gap: 8.09px;
+                h5{
+                    width: 64.218px;
+                    color: var(--Text-Tittle, #1C3554);
+                    /* Heading/Medium/H5 - 24px */
+                    font-family: Rubik;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 32px; /* 133.333% */
+                }
+                p{
+                    width: 41.139px;
+                    color: var(--Text-In-Field, #CCC);
+                    /* Paragraph/Reguler/Body - 16px */
+                    font-family: Montserrat;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                }
+            }
+            .stars{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+            }
+            .rasm{
+                width:100%;
+                height: 208px;
+                flex-shrink: 0;
+                border-radius: 4px;
+                background: var(--Text-In-Field, #CCC);
+            }
+            .design{
+                button{
+                width: auto 131px;
+                height: auto 32px;
+                display:flex;
+                padding: 4px 24px;
+                align-items: flex-start;
+                gap: 10px;
+                border-radius: 8px;
+                border: none;
+                outline: none;
+                position:absolute;
+                margin-left: 46px;
+                margin-top: -28px;
+                background: var(--Other-Blue, #4586D6);
+                h2{
+                    color: var(--Text-white, #FFF);
+                    /* Paragraph/Semibold/Label - 12px */
+                    font-family: "Montserrat";
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px; /* 200% */
+                }
+            }
+            }
+        }
+    }
+}
+
+
   .hammasi {
     display: flex;
     justify-content: center;
@@ -263,7 +485,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 250px;
+    gap: 186px;
     padding: 80px 0;
     .dom-row {
       text-align: center;
@@ -398,7 +620,25 @@
 }
 
 @media (max-width: 976px) {
+
+
   .home-page {
+
+    .second{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 20px;
+      width: 100%;
+      height: 200vh;
+      .cards{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      
+    }
     .first {
       display: flex;
       justify-content: space-around;
@@ -545,6 +785,34 @@
 
 @media (max-width: 768px) {
   .home-page {
+    .second{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-top: 20px;
+      width: 100%;
+      height: 453vh;
+      .asos2{
+        padding: 20px;
+        .all{
+          display: flex;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+      }
+      .cards{
+        width: 100%;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      
+    }
+    .card-all{
+    margin-top: 50px;      
+    align-items: center;
+    }
     .week {
       width: 1360px;
       height: 748px;
@@ -804,6 +1072,16 @@
 
 @media (max-width: 400px) {
   .home-page {
+    .second{
+      height: 600vh;
+      .asos2{
+        height: 600vh;
+      }
+
+      .cards{
+        height: 600vh;
+      }
+    }
     .first {
       display: flex;
       justify-content: space-around;

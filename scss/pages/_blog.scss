@@ -379,27 +379,7 @@
     }
   }
 
-  .dom-all {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 250px;
-    padding: 80px 0;
-    .dom-row {
-      text-align: center;
-      img {
-        width: 64px;
-        height: 64px;
-        flex-shrink: 0;
-      }
-      h1 {
-        font-size: 32px;
-        color: #1c3554;
-        font-family: "rubik";
-      }
-    }
-  }
+ 
 
   .book-all {
     display: flex;
