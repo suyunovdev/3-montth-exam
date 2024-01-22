@@ -3244,7 +3244,7 @@ nav .checkBtn {
   line-height: 32px; /* 200% */
 }
 .details-page .course {
-  height: 1120vh;
+  height: 1050vh;
 }
 .details-page .course .this {
   width: 100%;
@@ -4130,6 +4130,13 @@ nav .checkBtn {
   line-height: 24px; /* 200% */
 }
 
+@media (max-width: 1024px) {
+  .this {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
 @media (max-width: 976px) {
   .course {
     width: 100%;
