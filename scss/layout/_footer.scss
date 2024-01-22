@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.footer{
+    height: 550px;
+    display: flex;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background:  #021934;
+
+    
+    .footer-col{
+        display:flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 100px;
+        padding: 120px 0;
+    
+        
+        .footer-row{
+         
+            svg{
+                fill: white;
+            }
+           
+            p{
+                width: 500px;
+                color: white;
+                font-size: 16px;
+                font-family: 'Montserrat';
+                line-height: 32px;
+                padding: 20px 0;
+            }
+            h2{
+             color: white;
+             font-family: "Rubik";
+             font-size: 24px;
+             margin-top: -15%;
+            }
+            ul li a{
+                color: white;
+                font-size: 16px;
+                font-family: 'Montserrat';
+                line-height: 42px;
+              
+            }
+            
+        }
+       
+        
+        
+
+}
+.coll{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 120px;
+    p{
+        color: white;
+        font-family: "Montserra"t;
+        font-size: 16px;
+    }
+    .coll-all{
+        display: flex;
+        gap: 20px;
+        p{
+            color: white;
+            font-family: "Montserra"t;
+            font-size: 16px;
+        }
+    }
+}
+
+
+    }
+    @media(max-width:976px){
+        .footer{
+            height: 705px;
+            display: flex;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background:  #021934;
+        }
+    }
+
+
+    @media(max-width:500px){
+        .footer{
+            height: 705px;
+            display: flex;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background:  #021934;
+            .footer-col{
+                display:flex;
+                justify-content:space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 40px;
+                padding: 120px 0;
+                .footer-row{
+         
+                   
+                    p{
+                        width: 350px;
+                        color: white;
+                        font-size: 14px;
+                        font-family: 'Montserrat';
+                        line-height: 32px;
+                        padding: 20px 0;
+                    }
+                    
+                }
+               
+
+
+            .coll{
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 20px;
+                p{
+                    color: white;
+                    font-family: "Montserra"t;
+                    font-size: 16px;
+                }
+                .coll-all{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 5px;
+                    p{
+                        color: white;
+                        font-family: "Montserra"t;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+    
+    }
+
+    
+    @media(max-width:400px){
+        .footer{
+            height: 1005px;
+            display: flex;
+            flex-shrink: 0;
+            border-radius: 8px;
+            background:  #021934;
+            .footer-col{
+                display:flex;
+                justify-content:space-around;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 40px;
+                padding: 120px 0;
+                .footer-row{
+         
+                   
+                    p{
+                        width: 350px;
+                        color: white;
+                        font-size: 16px;
+                        font-family: 'Montserrat';
+                        line-height: 32px;
+                        padding: 20px 0;
+                    }
+                    
+                }
+               
+
+
+            .coll{
+                display: flex;
+                justify-content:space-between;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 20px;
+                p{
+                    color: white;
+                    font-family: "Montserra"t;
+                    font-size: 16px;
+                }
+                .coll-all{
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 5px;
+                    p{
+                        color: white;
+                        font-family: "Montserra"t;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+
+    }
+    
+    }
+
+
+

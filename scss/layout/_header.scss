@@ -1,0 +1,269 @@
+
+    nav{
+        position: fixed;
+        background-color: white;
+        width: 100%; 
+        height: 80px;
+        z-index: 100;
+    
+   
+    .logo{
+      
+        font-size: 30px;
+        line-height: 80px;
+     
+       
+    }
+    ul li >input{
+        
+        width: 260px;
+        height: 48px;
+        flex-shrink: 0;
+        outline: none;
+        border-radius: 8px;
+         border: 1px solid var(--Text-In-Field, #CCC);
+    }
+
+    ul li >img{
+        position: absolute;
+        left: 411px;
+        top: 110px;
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+    }
+    
+   ul {
+        float: right;
+    }
+   ul li{
+        display: inline-block;
+        line-height: 80px;
+
+    }
+  ul li a{
+        color:  #1C3554;
+        font-size: 16px;
+        margin: 20px;
+        padding: 12px 15px;
+        border-radius: 9px;
+        .btn1{
+            padding: 8px 12px;
+            border-radius: 8px;
+            border: 1px solid #1C3554;
+            background-color: white;
+            color:#1C3554;
+            transition: all .4s linear;
+            outline: none;
+            border: none;
+        }
+        .btn1:hover{
+            background:  #F72585;
+            border: 1px solid #F72585  ;
+            color: white;
+           
+        }
+    }
+   
+    #check{
+        display: none;
+    }
+    .checkBtn{
+        color: green;
+        font-size: 30px;
+        line-height: 80px;
+        cursor: pointer;
+        float: right;
+        margin-right: 50px;
+        display: none;
+    
+    }
+  
+}
+
+
+@media(max-width:976px){
+    nav{
+        .checkBtn{
+            display: block;
+            color: black;
+            margin-right: 10%;
+            
+        }
+        .logo{
+  
+            font-size: 30px;
+            line-height: 80px;
+          
+           
+        }
+
+
+    ul{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 80px;
+            left: -100%;
+            background-color: white;
+            text-align: center;
+            transition: all .5s;
+        }
+     ul li{
+            display: block;
+         img{
+                margin: -9px ;
+                margin-left: -3%;
+                width: 24px;
+                height: 24px;
+                flex-shrink: 0;
+            }
+          input{
+                width: 350px;
+                height: 40px;
+                flex-shrink: 0;
+                outline: none;
+                border-radius: 8px;
+                 border: 1px solid var(--Text-In-Field, #CCC);
+            }
+            
+        }
+        #check:checked ~ ul{
+            left: 0;
+        }
+
+    
+    }
+}
+
+@media(max-width:768px){
+    nav{
+        .checkBtn{
+            display: block;
+            color: black;
+           
+        }
+        .logo{
+  
+            font-size: 30px;
+            line-height: 80px;
+            margin:  0 50px;
+           
+        }
+
+
+    ul{
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 80px;
+            left: -100%;
+            background-color: white;
+            text-align: center;
+            transition: all .5s;
+        }
+     ul li{
+            display: block;
+          input{
+                width: 350px;
+                height: 40px;
+                flex-shrink: 0;
+                outline: none;
+                border-radius: 8px;
+                 border: 1px solid var(--Text-In-Field, #CCC);
+            }
+            
+        }
+        ul li >img{
+            margin: -9px ;
+            margin-left: -5%;
+            width: 24px;
+            height: 24px;
+            flex-shrink: 0;
+        }
+        #check:checked ~ ul{
+            left: 0;
+        }
+    
+    }
+}
+
+@media(max-width:500px){
+
+        nav{
+            .checkBtn{
+                display: block;
+                color: black;
+                // margin-right: 10%;
+               
+            }
+            .logo{
+      
+                font-size: 30px;
+                line-height: 80px;
+                margin:  0 50px;
+               
+            }
+
+
+        ul{
+                position: fixed;
+                width: 100%;
+                height: 100%;
+                top: 80px;
+                left: -100%;
+                background-color: white;
+                text-align: center;
+                transition: all .5s;
+            }
+         ul li{
+                display: block;
+              input{
+                    width: 350px;
+                    height: 40px;
+                    flex-shrink: 0;
+                    outline: none;
+                    border-radius: 8px;
+                     border: 1px solid var(--Text-In-Field, #CCC);
+                }
+                
+            }
+            #check:checked ~ ul{
+                left: 0;
+            }
+        
+        }
+        
+      
+    }
+@media(max-width:400px){
+    #backtop {
+        text-decoration: none;
+        font-size: 24px;
+        font-weight: 900;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 4px 4px 12px 2px rgba(0, 0, 0, 0.2);
+        color: #333;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        position: fixed;
+        right: 20px;
+        bottom: -50px;
+        cursor: pointer;
+        z-index: 99;
+        transition: 0.6s;}
+        nav{
+            ul li >img{
+                margin: -9px ;
+                margin-left: -8%;
+                width: 24px;
+                height: 24px;
+                flex-shrink: 0;
+            }
+        }
+}
+
