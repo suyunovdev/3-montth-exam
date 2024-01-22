@@ -258,6 +258,8 @@ nav .checkBtn {
 .footer {
   height: 550px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-shrink: 0;
   border-radius: 8px;
   background: #021934;
@@ -317,6 +319,8 @@ nav .checkBtn {
   .footer {
     height: 705px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
     border-radius: 8px;
     background: #021934;
@@ -326,6 +330,8 @@ nav .checkBtn {
   .footer {
     height: 705px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
     border-radius: 8px;
     background: #021934;
@@ -373,6 +379,8 @@ nav .checkBtn {
   .footer {
     height: 1005px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-shrink: 0;
     border-radius: 8px;
     background: #021934;
@@ -562,7 +570,7 @@ nav .checkBtn {
   align-items: center;
   padding-top: 20px;
   width: 100%;
-  height: 385vh;
+  height: 300vh;
 }
 .home-page .second .asos2 {
   display: flex;
@@ -983,6 +991,18 @@ nav .checkBtn {
   font-family: "Montserrat";
 }
 
+@media (max-width: 1024px) {
+  .home-page .first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 1300px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #021934;
+  }
+}
 @media (max-width: 976px) {
   .home-page .second {
     display: flex;
@@ -4265,128 +4285,21 @@ nav .checkBtn {
     align-items: center;
   }
 }
-.home-page .first {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-  height: 748px;
-  flex-shrink: 0;
-  border-radius: 8px;
-  background: #021934;
-  padding: 300px 0;
-}
-.home-page .first .asos1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 100%;
-  gap: 70px;
-}
-.home-page .first .asos1 .right {
-  position: relative;
-  width: 466px;
-  height: 466px;
-  flex-shrink: 0;
-}
-.home-page .first .asos1 .right .img {
-  position: absolute;
-  z-index: 100;
-  overflow: hidden;
-}
-.home-page .first .asos1 .left {
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  height: 500px;
-  padding-top: 88px;
-  padding-bottom: 88px;
-  gap: 24px;
-}
-.home-page .first .asos1 .left h1 {
-  width: 550px;
-  color: var(--Text-white, #fff);
-  font-family: Rubik;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 88px;
-}
-.home-page .first .asos1 .left p {
-  width: 647px;
-  color: var(--Text-white, #fff);
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 27px;
-}
-.home-page .first .asos1 .left .box {
-  display: flex;
-  align-items: center;
-  width: 610px;
-  justify-content: space-around;
-  height: 80px;
-  flex-shrink: 0;
-  border-radius: 8px;
-  background: var(--Text-white, #fff);
-}
-.home-page .first .asos1 .left .box input {
-  border: none;
-  outline: none;
-  padding-right: 170px;
-}
-.home-page .first .asos1 .left .box button {
-  padding: 12px 32px;
-  display: inline-flex;
-  padding: 12px 32px;
-  align-items: flex-start;
-  gap: 10px;
-  border: none;
-  border-radius: 8px;
-  background: #f72585;
-  color: #fff;
-  font-family: "Montserrat SemiBold";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  cursor: pointer;
-}
-.home-page .first .asos1 .left .pas {
-  display: flex;
-  gap: 48px;
-}
-.home-page .first .asos1 .left .pas .life {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-.home-page .first .asos1 .left .pas .life h6 {
-  color: #fff;
-  font-variant-numeric: lining-nums proportional-nums;
-  font-family: "rubik";
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 24px;
-}
-.home-page .h1 > h1 {
+.blog-page .h1 > h1 {
   text-align: center;
   color: #1c3554;
   font-size: 48px;
   font-family: "Rubik", sans-serif;
   padding: 86px 0;
 }
-.home-page .rown {
+.blog-page .rown {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   padding: 20px 0;
 }
-.home-page .rown .rown-all {
+.blog-page .rown .rown-all {
   display: flex;
   width: 167px;
   padding: 8px 32px;
@@ -4396,16 +4309,16 @@ nav .checkBtn {
   border-radius: 8px;
   transition: all 0.2s linear;
 }
-.home-page .rown .rown-all p {
+.blog-page .rown .rown-all p {
   color: #aaaaaa;
 }
-.home-page .rown .rown-all p:hover {
+.blog-page .rown .rown-all p:hover {
   color: white;
 }
-.home-page .rown .rown-all:hover {
+.blog-page .rown .rown-all:hover {
   background: #f72585;
 }
-.home-page .hammasi {
+.blog-page .hammasi {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4413,7 +4326,7 @@ nav .checkBtn {
   gap: 40px;
   margin: 0 auto;
 }
-.home-page .hammasi .column {
+.blog-page .hammasi .column {
   width: 263px;
   height: 457px;
   flex-shrink: 0;
@@ -4422,10 +4335,10 @@ nav .checkBtn {
   padding: 80px 0;
   transition: all 0.4s;
 }
-.home-page .hammasi .column:hover {
+.blog-page .hammasi .column:hover {
   box-shadow: 15px 15px 10px 0 rgba(0, 0, 0, 0.2);
 }
-.home-page .hammasi .column .column-all {
+.blog-page .hammasi .column .column-all {
   max-width: 262px;
   width: 100%;
   height: 208px;
@@ -4434,7 +4347,7 @@ nav .checkBtn {
   background: #ccc;
   margin-top: -30%;
 }
-.home-page .hammasi .column .own {
+.blog-page .hammasi .column .own {
   display: inline-flex;
   padding: 8px 24px;
   align-items: flex-start;
@@ -4443,35 +4356,35 @@ nav .checkBtn {
   background: #4586d6;
   margin: -20% 65px;
 }
-.home-page .hammasi .column .own p {
+.blog-page .hammasi .column .own p {
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
   color: white;
 }
-.home-page .hammasi .column .column-weve .p-1 {
+.blog-page .hammasi .column .column-weve .p-1 {
   width: 262.891px;
   color: black;
   font-size: 16px;
   padding: 10px 0;
 }
-.home-page .hammasi .column .column-weve h5 {
+.blog-page .hammasi .column .column-weve h5 {
   color: #f72585;
 }
-.home-page .hammasi .column .column-weve .word {
+.blog-page .hammasi .column .column-weve .word {
   display: flex;
   gap: 12px;
   padding: 10px 0;
 }
-.home-page .hammasi .column .column-weve .del {
+.blog-page .hammasi .column .column-weve .del {
   display: flex;
   align-items: center;
   gap: 10px;
 }
-.home-page .hammasi .column .column-weve .del del {
+.blog-page .hammasi .column .column-weve .del del {
   font-size: 16px;
   color: #ccc;
 }
-.home-page .hammasi .btn2 {
+.blog-page .hammasi .btn2 {
   padding: 10px 52px;
   border-radius: 8px;
   background: #f72585;
@@ -4479,13 +4392,13 @@ nav .checkBtn {
   color: white;
   text-align: center;
 }
-.home-page h1 {
+.blog-page h1 {
   font-size: 48px;
   color: #1c3554;
   font-family: "rubik";
   padding: 20px 0;
 }
-.home-page .card-row {
+.blog-page .card-row {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4493,7 +4406,7 @@ nav .checkBtn {
   gap: 25px;
   padding: 60px 0;
 }
-.home-page .card-row .card-col {
+.blog-page .card-row .card-col {
   width: 280px;
   height: 350px;
   flex-shrink: 0;
@@ -4501,12 +4414,12 @@ nav .checkBtn {
   opacity: 0.5;
   background: #000;
 }
-.home-page .card-row .card-col p {
+.blog-page .card-row .card-col p {
   color: white;
   margin-top: 100%;
   text-align: center;
 }
-.home-page .book-all {
+.blog-page .book-all {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4514,21 +4427,21 @@ nav .checkBtn {
   flex-wrap: wrap;
   gap: 80px;
 }
-.home-page .book-all .book-row .book-col {
+.blog-page .book-all .book-row .book-col {
   width: 608px;
   height: 607px;
   flex-shrink: 0;
   border-radius: 8px;
   background: #ccc;
 }
-.home-page .book-all .book-weve p {
+.blog-page .book-all .book-weve p {
   max-width: 500px;
   color: #808088;
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
   padding: 10px 0;
 }
-.home-page .book-all .book-weve .btn2 {
+.blog-page .book-all .book-weve .btn2 {
   padding: 10px 52px;
   border-radius: 8px;
   background: #f72585;
@@ -4536,26 +4449,26 @@ nav .checkBtn {
   color: white;
   text-align: center;
 }
-.home-page .class h1 {
+.blog-page .class h1 {
   text-align: center;
   font-size: 48px;
 }
-.home-page .class .class-all {
+.blog-page .class .class-all {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
 }
-.home-page .class .class-all .class-row {
+.blog-page .class .class-all .class-row {
   width: 249.6px;
   height: 104px;
   flex-shrink: 0;
 }
-.home-page .class .class-all .class-row img {
+.blog-page .class .class-all .class-row img {
   height: 100px;
 }
-.home-page .list-book {
+.blog-page .list-book {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4563,7 +4476,7 @@ nav .checkBtn {
   gap: 40px;
   flex-wrap: wrap;
 }
-.home-page .list-book .list-all {
+.blog-page .list-book .list-all {
   width: 350px;
   height: 518px;
   flex-shrink: 0;
@@ -4571,17 +4484,17 @@ nav .checkBtn {
   background: var(--Text-white, #fff);
   transition: all 0.5s;
 }
-.home-page .list-book .list-all:hover {
+.blog-page .list-book .list-all:hover {
   box-shadow: 15px 15px 10px 0 rgba(0, 0, 0, 0.2);
 }
-.home-page .list-book .list-all .list-row {
+.blog-page .list-book .list-all .list-row {
   width: 330px;
   height: 240px;
   flex-shrink: 0;
   border-radius: 8px;
   background: #ccc;
 }
-.home-page .list-book .list-all .list-weve {
+.blog-page .list-book .list-all .list-weve {
   display: flex;
   color: #808080;
   gap: 5px;
@@ -4589,21 +4502,21 @@ nav .checkBtn {
   font-size: 14px;
   font-family: "Montserrat";
 }
-.home-page .list-book .list-all h3 {
+.blog-page .list-book .list-all h3 {
   width: 348px;
   padding: 0px 20px;
   color: #1c3554;
   font-size: 24px;
   font-family: "rubik";
 }
-.home-page .list-book .list-all p {
+.blog-page .list-book .list-all p {
   width: 368px;
   color: #808080;
   font-size: 16px;
   font-family: "Montserrat";
   padding: 10px 20px;
 }
-.home-page .list-book .list-all span {
+.blog-page .list-book .list-all span {
   color: #f72585;
   padding: 0px 20px;
   font-size: 16px;
@@ -4611,114 +4524,7 @@ nav .checkBtn {
 }
 
 @media (max-width: 976px) {
-  .home-page .first {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 1608px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: #021934;
-  }
-  .home-page .first .asos1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 70px;
-    margin-top: 30%;
-  }
-  .home-page .first .asos1 .right {
-    position: relative;
-    width: 466px;
-    height: 466px;
-    flex-shrink: 0;
-  }
-  .home-page .first .asos1 .right .img {
-    position: absolute;
-    z-index: 100;
-    overflow: hidden;
-  }
-  .home-page .first .asos1 .left {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 500px;
-    padding-top: 88px;
-    padding-bottom: 88px;
-    gap: 24px;
-  }
-  .home-page .first .asos1 .left h1 {
-    width: 550px;
-    color: var(--Text-white, #fff);
-    font-family: Rubik;
-    font-size: 64px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 88px;
-  }
-  .home-page .first .asos1 .left p {
-    width: 647px;
-    color: var(--Text-white, #fff);
-    font-family: Montserrat;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-  }
-  .home-page .first .asos1 .left .box {
-    display: flex;
-    align-items: center;
-    width: 610px;
-    justify-content: space-around;
-    height: 80px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: var(--Text-white, #fff);
-  }
-  .home-page .first .asos1 .left .box input {
-    border: none;
-    outline: none;
-    padding-right: 170px;
-  }
-  .home-page .first .asos1 .left .box button {
-    padding: 12px 32px;
-    display: inline-flex;
-    padding: 12px 32px;
-    align-items: flex-start;
-    gap: 10px;
-    border: none;
-    border-radius: 8px;
-    background: #f72585;
-    color: #fff;
-    font-family: "Montserrat SemiBold";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    cursor: pointer;
-  }
-  .home-page .first .asos1 .left .pas {
-    display: flex;
-    gap: 48px;
-  }
-  .home-page .first .asos1 .left .pas .life {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .home-page .first .asos1 .left .pas .life h6 {
-    color: #fff;
-    font-variant-numeric: lining-nums proportional-nums;
-    font-family: "rubik";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-  }
-  .home-page .hammasi {
+  .blog-page .hammasi {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4726,13 +4532,13 @@ nav .checkBtn {
     gap: 40px;
     margin: 0 auto;
   }
-  .home-page .fon > img {
+  .blog-page .fon > img {
     width: 800px;
     height: 200px;
     flex-shrink: 0;
     border-radius: 8px;
   }
-  .home-page .dom-all {
+  .blog-page .dom-all {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4740,14 +4546,14 @@ nav .checkBtn {
     gap: 150px;
     padding: 80px 0;
   }
-  .home-page .dom-all .dom-row {
+  .blog-page .dom-all .dom-row {
     text-align: center;
   }
-  .home-page .box {
+  .blog-page .box {
     height: 440px;
     width: 1440px;
   }
-  .home-page .box .overlay {
+  .blog-page .box .overlay {
     background-color: #aaaaaa;
     height: 440px;
     left: 0;
@@ -4755,7 +4561,7 @@ nav .checkBtn {
   }
 }
 @media (max-width: 768px) {
-  .home-page .week {
+  .blog-page .week {
     width: 1360px;
     height: 748px;
     flex-shrink: 0;
@@ -4763,7 +4569,7 @@ nav .checkBtn {
     background: #021934;
     padding: 0px 40px;
   }
-  .home-page .week .week-all {
+  .blog-page .week .week-all {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -4771,21 +4577,21 @@ nav .checkBtn {
     gap: 40px;
     padding: 80px 0;
   }
-  .home-page .week .week-all .week-row > h1 {
+  .blog-page .week .week-all .week-row > h1 {
     width: 500px;
     font-size: 32px;
     color: white;
     font-family: "Rubik", sans-serif;
     padding: 10px 0;
   }
-  .home-page .week .week-all .week-row > p {
+  .blog-page .week .week-all .week-row > p {
     width: 500px;
     color: "Montserrat", sans-serif;
     color: white;
     padding: 15px 0;
     line-height: 24px;
   }
-  .home-page .hammasi {
+  .blog-page .hammasi {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4793,13 +4599,13 @@ nav .checkBtn {
     gap: 40px;
     margin: 0 auto;
   }
-  .home-page .fon > img {
+  .blog-page .fon > img {
     width: 800px;
     height: 200px;
     flex-shrink: 0;
     border-radius: 8px;
   }
-  .home-page .dom-all {
+  .blog-page .dom-all {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4807,123 +4613,12 @@ nav .checkBtn {
     gap: 150px;
     padding: 80px 0;
   }
-  .home-page .dom-all .dom-row {
+  .blog-page .dom-all .dom-row {
     text-align: center;
   }
 }
 @media (max-width: 500px) {
-  .home-page .first {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 1048px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: #021934;
-  }
-  .home-page .first .asos1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 70px;
-  }
-  .home-page .first .asos1 .right > img {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    flex-shrink: 0;
-  }
-  .home-page .first .asos1 .right > img img {
-    position: absolute;
-    z-index: 100;
-    overflow: hidden;
-  }
-  .home-page .first .asos1 .left {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 500px;
-    padding-top: 88px;
-    padding-bottom: 88px;
-    gap: 24px;
-  }
-  .home-page .first .asos1 .left h1 {
-    width: 300px;
-    color: #fff;
-    font-family: "Rubik";
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 300;
-    text-align: center;
-    margin-left: 20%;
-  }
-  .home-page .first .asos1 .left p {
-    width: 300px;
-    color: var(--Text-white, #fff);
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-    margin-left: 15%;
-    text-align: center;
-  }
-  .home-page .first .asos1 .left .box {
-    display: flex;
-    align-items: center;
-    width: 380px;
-    justify-content: space-around;
-    height: 40px;
-    flex-shrink: 0;
-    margin-left: 10%;
-    border-radius: 8px;
-    background: var(--Text-white, #fff);
-  }
-  .home-page .first .asos1 .left .box input {
-    border: none;
-    outline: none;
-  }
-  .home-page .first .asos1 .left .box button {
-    padding: 12px 32px;
-    display: inline-flex;
-    padding: 4px 12px;
-    align-items: flex-start;
-    gap: 10px;
-    border: none;
-    border-radius: 8px;
-    background: #f72585;
-    color: #fff;
-    text-align: center;
-    margin-left: -22%;
-    font-family: "Montserrat SemiBold";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    cursor: pointer;
-  }
-  .home-page .first .asos1 .left .pas {
-    display: flex;
-    gap: 48px;
-  }
-  .home-page .first .asos1 .left .pas .life {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .home-page .first .asos1 .left .pas .life h6 {
-    color: #fff;
-    font-variant-numeric: lining-nums proportional-nums;
-    font-family: "rubik";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
-  }
-  .home-page .book-all {
+  .blog-page .book-all {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -4931,25 +4626,25 @@ nav .checkBtn {
     flex-wrap: wrap;
     gap: 40px;
   }
-  .home-page .book-all .book-row .book-col {
+  .blog-page .book-all .book-row .book-col {
     width: 400px;
     height: 400px;
     flex-shrink: 0;
     border-radius: 8px;
     background: #ccc;
   }
-  .home-page .book-all .book-weve h1 {
+  .blog-page .book-all .book-weve h1 {
     font-size: 32px;
     text-align: center;
   }
-  .home-page .book-all .book-weve p {
+  .blog-page .book-all .book-weve p {
     max-width: 350px;
     color: #808088;
     font-size: 14px;
     font-family: "Montserrat", sans-serif;
     padding: 10px 0;
   }
-  .home-page .book-all .book-weve .btn2 {
+  .blog-page .book-all .book-weve .btn2 {
     padding: 10px 32px;
     border-radius: 8px;
     background: #f72585;
@@ -4957,11 +4652,11 @@ nav .checkBtn {
     color: white;
     margin-left: 20%;
   }
-  .home-page .class h1 {
+  .blog-page .class h1 {
     text-align: center;
     font-size: 32px;
   }
-  .home-page #backtop {
+  .blog-page #backtop {
     text-decoration: none;
     font-size: 24px;
     font-weight: 900;
@@ -4981,129 +4676,9 @@ nav .checkBtn {
     z-index: 99;
     transition: 0.6s;
   }
-  .home-page .card-all h1 {
+  .blog-page .card-all h1 {
     font-size: 32px;
     text-align: center;
-  }
-}
-@media (max-width: 400px) {
-  .home-page .first {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 1048px;
-    flex-shrink: 0;
-    border-radius: 8px;
-    background: #021934;
-  }
-  .home-page .first .asos1 {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 70px;
-  }
-  .home-page .first .asos1 .right > img {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    flex-shrink: 0;
-    margin-left: 20%;
-  }
-  .home-page .first .asos1 .right > img img {
-    position: absolute;
-    z-index: 100;
-    overflow: hidden;
-  }
-  .home-page .first .asos1 .left {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 500px;
-    padding-top: 88px;
-    padding-bottom: 88px;
-    gap: 24px;
-  }
-  .home-page .first .asos1 .left h1 {
-    width: 300px;
-    color: #fff;
-    font-family: "Rubik";
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 300;
-    text-align: center;
-    margin-left: 20%;
-  }
-  .home-page .first .asos1 .left p {
-    width: 300px;
-    color: var(--Text-white, #fff);
-    font-family: "Montserrat";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 27px;
-    margin-left: 15%;
-    text-align: center;
-  }
-  .home-page .first .asos1 .left .box {
-    display: flex;
-    align-items: center;
-    width: 350px;
-    justify-content: space-around;
-    height: 40px;
-    flex-shrink: 0;
-    margin-left: 2%;
-    border-radius: 8px;
-    overflow: hidden;
-    background: var(--Text-white, #fff);
-  }
-  .home-page .first .asos1 .left .box input {
-    border: none;
-    outline: none;
-    overflow: hidden;
-  }
-  .home-page .first .asos1 .left .box button {
-    padding: 12px 32px;
-    display: inline-flex;
-    padding: 4px 12px;
-    align-items: flex-start;
-    gap: 10px;
-    border: none;
-    border-radius: 8px;
-    background: #f72585;
-    color: #fff;
-    text-align: center;
-    margin-left: -24%;
-    font-family: "Montserrat SemiBold";
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 32px;
-    cursor: pointer;
-  }
-  .home-page .first .asos1 .left .pas {
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .home-page .first .asos1 .left .pas .life {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 10px;
-  }
-  .home-page .first .asos1 .left .pas .life h6 {
-    color: #fff;
-    font-variant-numeric: lining-nums proportional-nums;
-    font-family: "rubik";
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px;
   }
 }
 @font-face {

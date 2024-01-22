@@ -161,7 +161,7 @@
     align-items: center;
     padding-top: 20px;
     width: 100%;
-    height: 385vh;
+    height: 300vh;
     
     .asos2{
         display:flex ;
@@ -617,6 +617,22 @@
       }
     }
   }
+  
+}
+@media(max-width:1024px){
+  .home-page{
+    .first {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 1300px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #021934;
+    
+}
+}
 }
 
 @media (max-width: 976px) {
